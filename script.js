@@ -27,6 +27,7 @@ btn.addEventListener("click", (e) => {
         msg.style.display = "inline-block";
         currScore--;
     }
+    inp.value = "";
     score.innerText = " " + currScore;
 })
 
